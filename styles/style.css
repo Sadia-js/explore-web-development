@@ -44,3 +44,62 @@
     border-radius: 8px;
     padding: 18px 21px;
 }
+/* Why Web Development? starts */
+/* web-dev-info section styles */
+.web-dev-info{
+    width: 1140px;
+    height: 700px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 74px auto 90px auto;
+} 
+.web-dev-texts{
+    width: 852px;
+    text-align: center;
+    margin: 0 auto;
+}
+.web-dev-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    padding: 90px 0 24px 0;
+}
+.web-dev-subtitle{
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 48px;
+}
+.discussing-web-dev{
+    width: 946px;
+    display: flex;
+    gap: 95px;
+    background-color: #FFFFFF;
+    margin: 80px auto;
+}
+.coding-text-content{
+    width: 477px;
+    margin: 48px auto;
+}
+.coding-title{
+    font-size: 24;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+
+}
+.coding-describing{
+    font-size: 16px;
+    color: #0D1321;
+    margin-top: 18px;
+}
+.common-btn{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 20px;
+    color: #0D1321;
+    border: 1px solid black;
+    margin: 32px 0 59px 0;
+}
+.coding-image{
+    width: 274px;
+    height: 240px;
+    margin: 48px auto;
+}
