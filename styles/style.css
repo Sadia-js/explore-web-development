@@ -13,20 +13,26 @@
 
 /* header styles starts */
 .hero-content{
-    min-height: 580px;
+    min-height: 600px;
     background-image: url('../assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
+}
+.hero-texts-image{
+    width: 998px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 40px 15px;
 }
 .banner-image{
-    max-width: 214px;
+    max-width: 210px;
 }
 .banner-title{
-    font-size: 48;
+    font-size: 50;
     font-weight: 800;
     color: #0D1321;
     text-align: center;
@@ -34,17 +40,27 @@
 }
 .banner-subtitle{
     max-width: 89%;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 500;
     color: #0D1321;
     text-align: center;
     margin: 24px 0 32px 0;
 }
 .btn{
-    font-size: 20px;
+    max-width: 998px;
+}
+.btn button{
+    font-size: 17px;
+    font-weight: 700;
     color: #FFFFFF;
     background-color: #0D1321;
     border-radius: 8px;
-    padding: 18px 21px;
+    padding: 13px 16px;
+    text-align: center;
+    border: none;
+}
+.btn button:hover{
+    background-color: rgb(88, 87, 87);
 }
 /* main starts here */
 /* web-dev-info section styles */
@@ -61,7 +77,7 @@
     margin: 0 auto; 
 }
 .web-dev-title{
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
     color: #0D1321;
     padding: 60px 0 24px 0;
@@ -69,7 +85,7 @@
 .web-dev-subtitle{
     font-size: 16px;
     color: #0D1321;
-    margin-bottom: 45px;
+    margin-bottom: 47px;
 }
 .discussing-web-dev{
     width: 926px;
@@ -84,7 +100,7 @@
     margin: 48px auto;
 }
 .coding-title{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     color: rgba(13, 19, 33, 0.7);
 
@@ -100,7 +116,8 @@
     padding: 12px 20px;
     color: #0D1321;
     border: 1px solid black;
-    margin: 32px 0 59px 0;
+    margin-top: 35px;
+    border-radius: 8px;
 }
 .coding-image{
     width: 254px;
@@ -116,26 +133,27 @@
     padding-bottom: 52px;
 }
 .inspiration-content{
-    max-width: 832px;
+    max-width: 740px;
     text-align: center;
     margin: 0 auto;
 }
 .media-content{
-    width: 652px;
+    max-width: 990px; 
     margin: 60px auto 0 auto;
 }
 .media-content iframe{
     width: 100%;
+    height: 500px;
     border-radius: 16px;
 }
 /* My Current Target styles */
 .target-content{
     max-width: 1120px;
-    margin: 120px auto 0 auto;
+    margin: 50px auto 0 auto;
     border-radius: 16px;
 }
 .current-target{
-    max-width: 946px;
+    max-width: 760px;
     text-align: center;
     margin: 0 auto;
 }
@@ -216,10 +234,13 @@
 #submit{
     width: 120px;
     border-radius: 8px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     padding: 17px 0;
     background-color: #FFFFFF;
+}
+#submit:hover{
+    background-color: rgb(145, 145, 145);
 }
 /* main ends here */
 
