@@ -47,26 +47,26 @@
 /* Why Web Development? starts */
 /* web-dev-info section styles */
 .web-dev-info{
-    width: 1140px;
-    height: 700px;
+    max-width: 1140px;
     background-color: rgba(13, 19, 33, 0.02);
-    margin: 74px auto 90px auto;
+    margin: 74px auto 0 auto;
+    padding-bottom: 20px;
 } 
 .web-dev-texts{
     width: 852px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 .web-dev-title{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 800;
     color: #0D1321;
-    padding: 90px 0 24px 0;
+    padding: 0 0 24px 0;
 }
 .web-dev-subtitle{
     font-size: 16px;
     color: #0D1321;
-    margin-bottom: 48px;
+    margin-bottom: 45px;
 }
 .discussing-web-dev{
     width: 946px;
@@ -80,7 +80,7 @@
     margin: 48px auto;
 }
 .coding-title{
-    font-size: 24;
+    font-size: 24px;
     font-weight: bold;
     color: rgba(13, 19, 33, 0.7);
 
@@ -102,4 +102,28 @@
     width: 274px;
     height: 240px;
     margin: 48px auto;
+}
+/* My Inspiration styles */
+.inspiration-section{
+    max-width: 1140px;
+    height: 775;
+    background-color: rgba(13, 19, 33, 0.2);
+    margin: 90px auto 151px auto;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 32px;
+}
+.inspiration-content{
+    width: 852px;
+    text-align: center;
+    margin: 0 auto;
+}
+.media-content{
+    max-width: 1076px;
+    margin: 0 auto;
+    
+}
+.media-content iframe{
+    width: 100%;
+    border-radius: 8px;
 }
