@@ -46,7 +46,7 @@
     border-radius: 8px;
     padding: 18px 21px;
 }
-/* Why Web Development? starts */
+/* main starts here */
 /* web-dev-info section styles */
 .web-dev-info{
     max-width: 1140px;
@@ -172,4 +172,79 @@
 }
 .js-bg{
     background-color: rgba(255, 223, 0, 0.05);
+}
+/* contact-section styles */
+.contact-section {
+    max-width: 1140px;
+    min-height: 313px;
+    margin: 49px auto 80px;
+    background-image: 
+    linear-gradient(
+    rgba(0, 0, 0, 0.2), 
+    rgba(13, 19, 33, 1), 
+    rgba(13, 19, 33, 0.4), 
+    rgba(13, 19, 33, 0.15)),
+    url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.contact-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.contact-subtitle{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.contact-form{
+    margin-top: 24px;
+}
+#email{
+    width: 548px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 19px 215px 19px 20px;
+    border: none;
+    outline: none;
+}
+#submit{
+    width: 120px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 17px 0;
+    background-color: #FFFFFF;
+}
+/* main ends here */
+
+/* footer styles */
+.foot-content{
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 32px 150px;
+}
+.foot-content p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.fa-brands{
+    font-size: 36px;
+}
+.fa-facebook, .fa-linkedin{
+    color: blue;
+}
+.fa-github{
+    margin: 0 24px 0 24px;
 }
