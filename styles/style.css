@@ -49,14 +49,14 @@
 /* main starts here */
 /* web-dev-info section styles */
 .web-dev-info{
-    max-width: 1140px;
+    max-width: 1120px;
     background-color: rgba(13, 19, 33, 0.02);
     margin: 74px auto 0 auto;
     padding-bottom: 20px;
     border-radius: 16px;
 } 
 .web-dev-texts{
-    width: 852px;
+    width: 832px;
     text-align: center;
     margin: 0 auto; 
 }
@@ -64,7 +64,7 @@
     font-size: 30px;
     font-weight: 800;
     color: #0D1321;
-    padding: 80px 0 24px 0;
+    padding: 60px 0 24px 0;
 }
 .web-dev-subtitle{
     font-size: 16px;
@@ -72,7 +72,7 @@
     margin-bottom: 45px;
 }
 .discussing-web-dev{
-    width: 946px;
+    width: 926px;
     display: flex;
     gap: 95px;
     background-color: #FFFFFF;
@@ -80,7 +80,7 @@
     border-radius: 16px;
 }
 .coding-text-content{
-    width: 477px;
+    width: 457px;
     margin: 48px auto;
 }
 .coding-title{
@@ -103,29 +103,26 @@
     margin: 32px 0 59px 0;
 }
 .coding-image{
-    width: 274px;
+    width: 254px;
     height: 240px;
     margin: 48px auto;
 }
 /* My Inspiration styles */
 .inspiration-section{
-    max-width: 1140px;
-    height: 775;
-    background-color: rgba(13, 19, 33, 0.2);
-    margin: 90px auto 151px auto;
+    max-width: 1120px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 120px auto 0 auto;
     border-radius: 16px;
-    border: 1px solid black;
-    padding: 32px;
+    padding-bottom: 52px;
 }
 .inspiration-content{
-    max-width: 852px;
+    max-width: 832px;
     text-align: center;
     margin: 0 auto;
 }
 .media-content{
-    max-width: 1076px;
-    margin: 0 auto;
-    
+    width: 652px;
+    margin: 60px auto 0 auto;
 }
 .media-content iframe{
     width: 100%;
@@ -133,8 +130,9 @@
 }
 /* My Current Target styles */
 .target-content{
-    max-width: 1140px;
-    margin: 0 auto;
+    max-width: 1120px;
+    margin: 120px auto 0 auto;
+    border-radius: 16px;
 }
 .current-target{
     max-width: 946px;
@@ -175,9 +173,8 @@
 }
 /* contact-section styles */
 .contact-section {
-    max-width: 1140px;
-    min-height: 313px;
-    margin: 49px auto 80px;
+    min-height: 323px;
+    margin: 120px auto 80px auto;
     background-image: 
     linear-gradient(
     rgba(0, 0, 0, 0.2), 
