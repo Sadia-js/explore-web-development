@@ -96,7 +96,7 @@
     border-radius: 16px;
 }
 .coding-text-content{
-    width: 457px;
+    max-width: 457px;
     margin: 48px auto;
 }
 .coding-title{
@@ -120,13 +120,13 @@
     border-radius: 8px;
 }
 .coding-image{
-    width: 254px;
+    max-width: 254px;
     height: 240px;
     margin: 48px auto;
 }
 /* My Inspiration styles */
 .inspiration-section{
-    max-width: 1120px;
+    width: 1120px;
     background-color: rgba(13, 19, 33, 0.02);
     margin: 120px auto 0 auto;
     border-radius: 16px;
@@ -246,12 +246,13 @@
 
 /* footer styles */
 .foot-content{
+    min-height: 100px;
     background-color: rgba(13, 19, 33, 0.03);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    padding: 32px 150px;
+    gap: 30px;
+    padding: 30px 170px;
 }
 .foot-content p{
     font-size: 20px;
@@ -264,5 +265,5 @@
     color: blue;
 }
 .fa-github{
-    margin: 0 24px 0 24px;
+    margin: 0 20px 0 20px;
 }
