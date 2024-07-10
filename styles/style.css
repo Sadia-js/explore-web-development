@@ -13,97 +13,101 @@
 
 /* header styles starts */
 .hero-content{
-    min-height: 600px;
+    min-height: 570px;
     background-image: url('../assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
 }
 .hero-texts-image{
-    width: 998px;
+    width: 67%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 40px 15px;
+    padding: 35px 5px;
 }
 .banner-image{
     max-width: 210px;
 }
 .banner-title{
-    font-size: 50;
+    font-size: 30px;
     font-weight: 800;
     color: #0D1321;
     text-align: center;
     margin-top: 32px;
 }
-.banner-subtitle{
-    max-width: 89%;
+.banner-subtitle{ 
     font-size: 18px;
     font-weight: 500;
     color: #0D1321;
     text-align: center;
     margin: 24px 0 32px 0;
 }
+
 .btn{
-    max-width: 998px;
-}
-.btn button{
     font-size: 17px;
     font-weight: 700;
     color: #FFFFFF;
     background-color: #0D1321;
+    box-shadow: 0 5px 16px 0 rgb(17, 16, 16);
     border-radius: 8px;
     padding: 13px 16px;
     text-align: center;
     border: none;
+    cursor: pointer;
+    transition: background ease-in 0.5s;
 }
-.btn button:hover{
-    background-color: rgb(88, 87, 87);
+.btn:hover{
+    background: rgb(19, 19, 19, 0.7);
 }
 /* main starts here */
 /* web-dev-info section styles */
 .web-dev-info{
-    max-width: 1120px;
-    background-color: rgba(13, 19, 33, 0.02);
-    margin: 74px auto 0 auto;
-    padding-bottom: 20px;
+    max-width: 80%;
+    background-color: rgba(20, 38, 48, 0.03);
+    margin: 80px auto 0 auto;
+    padding: 50px 40px 60px 40px;
     border-radius: 16px;
 } 
 .web-dev-texts{
-    width: 832px;
+    padding: 0 10px;
     text-align: center;
-    margin: 0 auto; 
 }
 .web-dev-title{
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
-    padding: 60px 0 24px 0;
 }
 .web-dev-subtitle{
     font-size: 16px;
     color: #0D1321;
-    margin-bottom: 47px;
+    margin-top: 18px;
 }
 .discussing-web-dev{
-    width: 926px;
     display: flex;
-    gap: 95px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
     background-color: #FFFFFF;
-    margin: 80px auto;
+    margin-top: 60px;
     border-radius: 16px;
+    padding: 23px 5px 28px 25px;
 }
 .coding-text-content{
-    max-width: 457px;
-    margin: 48px auto;
+    width: 50%;
+}
+.coding-image{
+    width: 275px;
+}
+.coding-image-js{
+    width: 240px;
 }
 .coding-title{
     font-size: 22px;
     font-weight: bold;
     color: rgba(13, 19, 33, 0.7);
-
 }
 .coding-describing{
     font-size: 16px;
@@ -111,45 +115,44 @@
     margin-top: 18px;
 }
 .common-btn{
-    font-size: 16px;
-    font-weight: 700;
-    padding: 12px 20px;
-    color: #0D1321;
-    border: 1px solid black;
-    margin-top: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 15px;
+    color: rgb(13, 19, 33);
+    border: none;
+    box-shadow: 0 3px 8px 0 rgb(130, 130, 130);
+    margin-top: 30px;
     border-radius: 8px;
+    cursor: pointer;
+    transition: background ease-in 0.5s;
 }
-.coding-image{
-    max-width: 254px;
-    height: 240px;
-    margin: 48px auto;
+.common-btn:hover{
+    background: rgba(30, 29, 47, 0.15);
 }
+
 /* My Inspiration styles */
 .inspiration-section{
-    width: 1120px;
-    background-color: rgba(13, 19, 33, 0.02);
+    width: 80%;;
+    background-color: rgba(20, 38, 48, 0.03);
     margin: 120px auto 0 auto;
     border-radius: 16px;
-    padding-bottom: 52px;
 }
 .inspiration-content{
-    max-width: 740px;
     text-align: center;
-    margin: 0 auto;
+    padding: 40px 30px 5px 30px;
 }
 .media-content{
-    max-width: 990px; 
-    margin: 60px auto 0 auto;
+    padding: 52px;
 }
 .media-content iframe{
     width: 100%;
-    height: 500px;
+    height: 460px;
     border-radius: 16px;
 }
 /* My Current Target styles */
 .target-content{
-    max-width: 1120px;
-    margin: 50px auto 0 auto;
+    max-width: 80%;
+    margin: 100px auto 0 auto;
     border-radius: 16px;
 }
 .current-target{
@@ -159,15 +162,19 @@
 }
 .cards{
     display: flex;
+    justify-content: space-between;
     gap: 24px;
+    padding: 20px 0;
+    margin-top: 40px;
 }
 .target-card{
-    max-width: 364px;
-    padding: 40px;
+    max-width: 300px;
+    padding: 30px 25px;
     border-radius: 16px;
+    box-shadow: 0 5px 27px 0px rgba(228, 226, 226, 0.606);
 }
 .html-bg{
-    background-color: rgba(255, 76, 30, 0.05);
+    background-color: rgba(255, 76, 30, 0.09);
 }
 .card-title{
     font-size: 20;
@@ -184,22 +191,19 @@
     color: #0D1321;
 }
 .css-bg{
-    background-color: rgba(0, 76, 232, 0.05);
+    background-color: rgba(0, 76, 232, 0.09);
 }
 .js-bg{
-    background-color: rgba(255, 223, 0, 0.05);
+    background-color: rgba(255, 235, 0, 0.13);
 }
 /* contact-section styles */
 .contact-section {
-    min-height: 323px;
-    margin: 120px auto 80px auto;
-    background-image: 
-    linear-gradient(
-    rgba(0, 0, 0, 0.2), 
-    rgba(13, 19, 33, 1), 
-    rgba(13, 19, 33, 0.4), 
-    rgba(13, 19, 33, 0.15)),
-    url('../assets/handshake.jpg');
+    width: 80%;
+    min-height: 325px;
+    margin: 120px auto 80px auto; 
+    background-image: url('../assets/handshake.jpg');
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;  
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -207,7 +211,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 18px;
 }
 .contact-title{
     font-size: 30px;
@@ -219,28 +223,32 @@
     font-size: 16px;
     color: #FFFFFF;
     text-align: center;
+    padding: 3px 15px;
 }
 .contact-form{
-    margin-top: 24px;
+    margin-top: 26px;
 }
 #email{
-    width: 548px;
+    width: 300px;
+    text-align: center;
     border-radius: 8px;
     background-color: #FFFFFF;
-    padding: 19px 215px 19px 20px;
+    padding: 19px 160px 19px 20px;
     border: none;
     outline: none;
 }
 #submit{
-    width: 120px;
+    width: 110px;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 600;
     padding: 17px 0;
     background-color: #FFFFFF;
+    cursor: pointer;
+    transition: background ease-in 0.5s;
 }
 #submit:hover{
-    background-color: rgb(145, 145, 145);
+    background: rgba(255, 253, 253, 0.425);
 }
 /* main ends here */
 
@@ -249,21 +257,28 @@
     min-height: 100px;
     background-color: rgba(13, 19, 33, 0.03);
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-details{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    padding: 30px 170px;
+    gap: 20px;
 }
 .foot-content p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 .fa-brands{
-    font-size: 36px;
+    font-size: 30px;
 }
 .fa-facebook, .fa-linkedin{
     color: blue;
 }
 .fa-github{
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
 }
